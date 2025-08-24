@@ -1,0 +1,142 @@
+            body{
+                    background-color: hsl(225, 100%, 94%);
+                    font-family:"Red Hat Display", sans-serif;
+                    background-image: url("/Images/pattern-background-desktop.svg");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                   
+                }
+
+                .background{
+                    background-attachment: fixed;
+                    display: block;
+                    background-position: center;
+                }
+
+                .happy{
+                justify-content: center;
+                display: flex;
+                }
+
+                .boring-info{
+                    color: gray;
+                    width: 270px;
+                    font-size: 16px;
+                    text-align: center;
+
+                }
+
+                .info{
+                    display:flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding-top: 20px;
+                  
+                }
+                .info h2{
+                    margin: 0px;
+                }
+                .info2{
+                    display:flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                .icon{
+                    float: left;
+                    margin-right: 18px;
+                    border-radius: 50%;
+
+                }
+
+                .plan{
+                    line-height: 10px;
+                    font-size: 14px;
+                }
+
+                .price {
+                    font-size: 14px;
+                    line-height: 0;
+                }
+
+                .option{
+                    color: blue;
+                    cursor: pointer;
+                    font-weight: bold;
+                    text-align: right;
+                   
+
+                    .option-2{
+                        position: relative;
+                        top: -40px;
+                    }
+
+                }
+                .option:hover{
+                    opacity: 0.8;
+                    text-decoration: none;
+                    transition-duration: 0.7s;
+                    color: mediumslateblue
+                }
+                .option:active{
+                    opacity: 0.9;
+                }
+
+                .button{
+
+                    padding: 10px 5px;
+                }
+
+                .bg-color{
+                    background-color: aliceblue;
+                    width: 300px;
+                    margin: auto;
+
+                }
+                .action{
+                        background-color: mediumblue;
+                        color: white;
+                        border: none;
+                        font-weight: bold;
+                        padding-left: 90px;
+                        padding-right: 90px;
+                        padding-bottom: 10px;
+                        padding-top: 10px;
+                        border-radius: 10px;
+                        cursor: pointer;
+                        display: block;
+                        box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+                        margin: auto;
+                 
+                }
+                .action:hover{
+                    opacity: 0.6;
+                }
+                .action:active{
+                    opacity: 0.8;
+                }
+
+                .cancel{
+                    color: gray;
+                    background-color: transparent;
+                    border: none;
+                    cursor: pointer;
+                    padding-left: 90px;
+                    padding-right: 90px;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    display: block;
+                    margin: auto;
+                }
+
+                .cancel:hover{
+                    font-weight: bold;
+                    color: black;
+                }
+
+                .total{
+                    background-color: #fff;
+                    width: 450px;
+                    margin: 0 auto;
+                }
