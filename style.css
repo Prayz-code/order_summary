@@ -8,15 +8,16 @@
                    
                 }
 
-                .background{
-                    background-attachment: fixed;
-                    display: block;
-                    background-position: center;
-                }
 
                 .happy{
                 justify-content: center;
                 display: flex;
+
+                .happy-man{
+                    border-top-left-radius: 20px;
+                    border-top-right-radius: 20px;
+                    margin-top: 70px;
+                }
                 }
 
                 .boring-info{
@@ -36,6 +37,8 @@
                 }
                 .info h2{
                     margin: 0px;
+                    padding-top: 20px;
+                    
                 }
                 .info2{
                     display:flex;
@@ -85,7 +88,9 @@
 
                 .button{
 
-                    padding: 10px 5px;
+                    padding: 5px 5px;
+                    padding-bottom: 0px;
+                    
                 }
 
                 .bg-color{
@@ -125,7 +130,7 @@
                     padding-left: 90px;
                     padding-right: 90px;
                     padding-top: 10px;
-                    padding-bottom: 10px;
+                    padding-bottom: 20px;
                     display: block;
                     margin: auto;
                 }
@@ -139,4 +144,7 @@
                     background-color: #fff;
                     width: 450px;
                     margin: 0 auto;
+                    border-bottom-left-radius: 20px;
+                    border-bottom-right-radius: 20px;
+                    height: 380px;
                 }
